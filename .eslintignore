@@ -5,4 +5,8 @@
 public
 dist
 .umi
+// before
 mock
+
+// after
+mock/**
