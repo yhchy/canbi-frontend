@@ -5,7 +5,7 @@
     name: '用户',
     routes: [{ path: '/user/login', component: './User/Login' }],
   },
-  { path: '/', redirect: '/admin' },
+  { path: '/', redirect: '/add_chart' },
   { path: '/add_chart', name: '智能分析', icon: 'barChart', component: './AddChart' },
   { path: '/welcome', name: '欢迎', icon: 'smile', component: './Welcome' },
   {
