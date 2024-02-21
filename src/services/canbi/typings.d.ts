@@ -103,14 +103,14 @@ declare namespace API {
 
   type ChartQueryRequest = {
     chartType?: string;
-    current?: string;
+    current?: number;
     goal?: string;
-    id?: string;
+    id?: number;
     name?: string;
-    pageSize?: string;
+    pageSize?: number;
     sortField?: string;
     sortOrder?: string;
-    userId?: string;
+    userId?: number;
   };
 
   type ChartUpdateRequest = {
@@ -171,15 +171,15 @@ declare namespace API {
 
   type PageChart_ = {
     countId?: string;
-    current?: string;
-    maxLimit?: string;
+    current?: number;
+    maxLimit?: number;
     optimizeCountSql?: boolean;
     orders?: OrderItem[];
-    pages?: string;
+    pages?: number;
     records?: Chart[];
     searchCount?: boolean;
-    size?: string;
-    total?: string;
+    size?: number;
+    total?: number;
   };
 
   type PageUser_ = {
